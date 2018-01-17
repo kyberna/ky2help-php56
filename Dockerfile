@@ -1,5 +1,5 @@
 FROM php:5.6-apache
-LABEL maintainer="seti@setadesign.net"
+LABEL maintainer="sebastian.koehlmeier@kyberna.com"
 
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
